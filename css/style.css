@@ -132,7 +132,6 @@ section.opposite .separator::after {
     margin-bottom: 50px;
 }
 
-
 @media screen and (min-width: 992px) {
     .navbar-default .navbar-brand {
         font-size: 22px;
