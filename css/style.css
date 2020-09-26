@@ -151,7 +151,7 @@ section.opposite .separator::after {
 }
 
 .btn-outline-light {
-    border: 2px solid #f8f9fa;
+    border: 2px solid white;
     padding: 20px 15px;
     background-color: #1BBB9C;
 }
@@ -162,6 +162,22 @@ section.opposite .separator::after {
     border-color: #f8f9fa;
 }
 
+.form-control-2 {
+    margin-bottom: 30px;
+}
+
+.btn-outline-light.send {
+    border: 2px solid #1BBB9C;
+    padding: 20px 15px;
+    background-color: #1BBB9C;
+    float: left;
+}
+
+.btn-outline-light.send:hover {
+    color: white;
+    background-color: #139A7F;
+    border-color: #139A7F;
+}
 /* contact */
 
 
