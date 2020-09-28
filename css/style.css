@@ -128,7 +128,7 @@ section.opposite .separator::after {
     font-size: 48px;
 }
 
-.icone-hover {
+.card {
     position: relative;
 }
 
@@ -136,7 +136,7 @@ section.opposite .separator::after {
     display: block;
     width: 100%;
     height: auto;
-    /* max-width: 240px; */
+    max-width: 240px;
     border-radius: 8px;
 }
 
