@@ -136,12 +136,11 @@ section.opposite .separator::after {
     display: block;
     width: 100%;
     height: auto;
-    max-width: 240px;
+    /* max-width: 240px; */
     border-radius: 8px;
 }
 
 .overlay {
-    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -154,6 +153,7 @@ section.opposite .separator::after {
     background-color: #3DB197;
     border-radius: 8px;
 }
+
 
 .icone-hover:hover .overlay {
     opacity: 0.9;
@@ -169,6 +169,8 @@ section.opposite .separator::after {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/* about */
 
 .about-text {
     padding-top: 70px;
