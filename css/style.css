@@ -199,9 +199,13 @@ section.opposite .separator::after {
 .form-control {
     margin-bottom: 10px;
     border: 0;
-    border-radius: none;
+    border-radius: 0;
     border-bottom: 1px solid #E9ECEF;
     box-shadow: none;
+    color: #495057;
+    font-size: 20px;
+    padding: 34px 0;
+    height: auto;
 }
 
 .form-control-2 {
@@ -210,6 +214,15 @@ section.opposite .separator::after {
     border-radius: none;
     border-bottom: 1px solid #E9ECEF;
     box-shadow: none;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid #E9ECEF;
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
 }
 
 .btn-outline-light.send {
@@ -250,7 +263,7 @@ section.opposite .separator::after {
 }
 
 .icone-social li a{
-    display: block;
+    display: inline-block;
     text-align: center;
     text-decoration: none;
     background-color: #2c3e50;
